@@ -1,4 +1,4 @@
-# 🎯 Detection of Face-Swap Based Deepfake Videos using AI/ML
+#  Detection of Face-Swap Based Deepfake Videos using AI/ML
 
 This project focuses on developing a system capable of detecting **face-swap-based deepfake videos** with a high degree of accuracy and reliability using **Artificial Intelligence (AI)** and **Machine Learning (ML)** techniques.
 
@@ -13,7 +13,7 @@ This multi-modal approach ensures better detection accuracy and generalization a
 
 ---
 
-## 📚 Literature Review (Prior Work)
+##  Literature Review (Prior Work)
 Several deepfake detection models have been proposed in recent years:
 
 1. **MesoNet (Afchar et al., 2018):** Detects subtle facial inconsistencies in compressed videos.  
@@ -33,7 +33,7 @@ Several deepfake detection models have been proposed in recent years:
 
 ---
 
-## 🚀 Advancements in Our Proposed Work
+##  Advancements in Our Proposed Work
 ✅ Combines **CNN (spatial)** and **LSTM/Temporal CNN (temporal)** analysis  
 ✅ Uses **MediaPipe** for face alignment and region focus  
 ✅ Integrates **Grad-CAM** visual heatmaps for transparency  
@@ -42,7 +42,7 @@ Several deepfake detection models have been proposed in recent years:
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 1. Detect deepfake videos with high accuracy.  
 2. Analyze spatial and temporal inconsistencies.  
 3. Train and test on diverse datasets (FaceForensics++, Celeb-DF, DFDC).  
@@ -53,7 +53,7 @@ Several deepfake detection models have been proposed in recent years:
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 1. **Data Collection:** Use FaceForensics++, Celeb-DF, DFDC datasets.  
 2. **Frame Extraction:** Split videos into frames.  
 3. **Face Detection:** Use **MediaPipe** or **OpenCV** to isolate faces.  
@@ -64,7 +64,7 @@ Several deepfake detection models have been proposed in recent years:
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 | Component | Tools / Frameworks |
 |------------|--------------------|
 | **Frontend** | HTML, CSS, JavaScript / Next.js |
@@ -75,20 +75,20 @@ Several deepfake detection models have been proposed in recent years:
 
 ---
 
-## 🧪 Datasets
+##  Datasets
 - **FaceForensics++** — Real and fake video dataset  
 - **Celeb-DF** — Celebrity deepfakes with high realism  
 - **DFDC** — Facebook’s large-scale deepfake dataset  
 
 ---
 
-## 📈 Results
+##  Results
 The developed system successfully identifies deepfake content by analyzing both visual and temporal inconsistencies.  
 It demonstrates strong potential for real-time or mobile deployment and contributes toward secure, trustworthy digital environments.
 
 ---
 
-## 🔍 Conclusion
+##  Conclusion
 The project delivers a reliable system for **deepfake video detection**, addressing key challenges such as dataset generalization, temporal feature extraction, and user transparency.  
 It provides a scalable solution that can evolve into a production-ready deepfake detection platform.
 
@@ -99,5 +99,5 @@ It provides a scalable solution that can evolve into a production-ready deepfake
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 🔗 Live Demo: [ai-ml-deepfake-detection.vercel.app](https://ai-ml-deepfake-detection.vercel.app)
