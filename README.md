@@ -24,7 +24,7 @@ Several deepfake detection models have been proposed in recent years:
 
 ---
 
-## ⚠️ Limitations of Existing Systems
+##  Limitations of Existing Systems
 - Poor generalization across datasets  
 - Sensitivity to compression and low-quality videos  
 - Lack of real-time detection  
